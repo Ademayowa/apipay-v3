@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#EEF3F9] font-publicsans;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-dmserif;
+  }
+}
+
+@layer components {
+  .header {
+    @apply sticky top-0 z-[1000] flex h-[80px] items-center px-10 md:px-12 text-white;
+  }
+}
