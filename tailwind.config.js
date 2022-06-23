@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         btnColor: '#BA4270',
+        grayColor: '#36536B',
       },
       fontFamily: {
         publicsans: ['Public sans', 'sans-serif'],

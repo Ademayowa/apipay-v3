@@ -84,7 +84,7 @@ export default function Navbar() {
           />
         </div>
 
-        <div className='hidden md:flex md:ml-5 text-base text-[#36536B] font-bold text-[15px] mt-3 space-x-5'>
+        <div className='hidden md:flex md:ml-5 text-base text-[#36536B] font-bold text-[15px] space-x-5'>
           <NavLink to='/#top'>Pricing</NavLink>
           <NavLink to='/#top'>About</NavLink>
           <NavLink to='/#top'>Contact</NavLink>
