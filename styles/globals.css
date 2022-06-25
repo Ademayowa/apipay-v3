@@ -16,6 +16,6 @@
 
 @layer components {
   .header {
-    @apply sticky top-0 z-[1000] flex h-[80px] items-center px-10 md:px-12 text-white;
+    @apply top-0 z-[1000] flex h-[80px] items-center px-10 md:px-12 text-white;
   }
 }
