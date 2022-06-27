@@ -18,7 +18,7 @@ export default function Work() {
             </p>
           </div>
 
-          <div className='text-center lg:text-left !z-index-50'>
+          <div className='text-center lg:text-left'>
             <button className='text-center border border-gray-500 text-white text-[15px] font-bold  py-3 px-8 mt-5 rounded-full'>
               About Us
             </button>
