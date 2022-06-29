@@ -8,8 +8,8 @@ export default function Work() {
       <div className='flex flex-col-reverse lg:flex-row py-20'>
         <div className='px-10 md:px-12 w-full lg:w-1/2'>
           <Title
-            title=' Who we work with'
-            text=' Today, millions of people around the world have successfully
+            title='Who we work with'
+            text='Today, millions of people around the world have successfully
             connected their accounts to apps they love using our API. We provide
             developers with the tools they need to create easy and accessible
             experiences for their users.'
