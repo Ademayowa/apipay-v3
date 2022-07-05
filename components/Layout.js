@@ -1,4 +1,5 @@
 import Footer from '@/section/Footer';
+import Header from '@/components/Header';
 import Head from 'next/head';
 
 export default function Layout({ title, description, keywords, children }) {
@@ -12,7 +13,8 @@ export default function Layout({ title, description, keywords, children }) {
       </Head>
       {children}
 
-      <Footer />
+      {/* <Header /> */}
+      {/* <Footer /> */}
     </>
   );
 }
