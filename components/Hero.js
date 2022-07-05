@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Form from './Form';
 
 export default function Hero() {
   return (
@@ -10,21 +11,7 @@ export default function Hero() {
             Start building <br /> with our APIs for absolutely free.
           </h1>
 
-          <form className='mt-10 relative'>
-            <input
-              className='block pl-9 sm:text-sm border-gray-300 rounded-full h-14 w-full md:w-9/12 shadow-lg font-bold text-grayColor outline-none mb-3 md:mb-0'
-              type='text'
-              placeholder='Enter email address'
-            />
-
-            <button className='bg-[#BA4270] text-white text-[15px] font-bold py-3 px-6 rounded-full w-full md:w-auto shadow-lg h-14 md:absolute top-0 right-20'>
-              Schedule a Demo
-            </button>
-
-            <p className='text-[15px] text-grayColor text-center md:text-left mt-5 md:px-10'>
-              Have any questions? <span className='font-bold'>Contact Us</span>
-            </p>
-          </form>
+          <Form />
         </div>
 
         {/* Right image */}

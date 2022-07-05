@@ -1,3 +1,4 @@
+import Footer from '@/section/Footer';
 import Head from 'next/head';
 
 export default function Layout({ title, description, keywords, children }) {
@@ -10,6 +11,8 @@ export default function Layout({ title, description, keywords, children }) {
         <link rel='icon' href='/favicon.svg' />
       </Head>
       {children}
+
+      <Footer />
     </>
   );
 }
