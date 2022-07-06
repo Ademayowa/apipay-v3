@@ -8,7 +8,9 @@ export default function AboutPage() {
     <Layout title='About'>
       <Header />
       <div className='md:px-12'>
-        <BreadCrumb title='We empower innovators by delivering access to the financial system' />
+        <h2 className='text-[32px] md:text-[56px] lg:text-[56px] text-grayColor px-10 md:px-20 max-w-3xl leading-none mt-10'>
+          We empower innovators by delivering access to the financial system
+        </h2>
 
         <div className='px-10 md:px-20 mt-14 md:mt-20'>
           <AboutSectionTitle
